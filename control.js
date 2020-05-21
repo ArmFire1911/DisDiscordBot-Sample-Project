@@ -25,7 +25,7 @@ const request = require('request');
 const makeItAlive = function () {
     request.get
         (
-        'Your GitHub repo URL',
+        'The Url of Your Heroku Domains',
         {},
         function (error, response, body) {
             console.log(`send a post`);
