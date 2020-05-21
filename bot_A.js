@@ -58,11 +58,11 @@ const messageData = {
     'commandB': {
         execute(message) {
             embedData = {
-                avatarURL: 'https://i.imgur.com/DorE9hI.png',
-                embedTitle: '[來自最可愛的老婆大人的訊息]',
-                embedContent: '今天的便當，只是剛好有剩餘的食材才順手做的唷。 \n因為清理很麻煩，所以絕對不准你剩下來，知道了吧！',
+                avatarURL: 'https://i.imgur.com/??????.png',
+                embedTitle: '',
+                embedContent: '',
                 pictureURL: '',
-                comefrom: '來自結弦のIPhone',
+                comefrom: '',
             }
             message.channel.send(createEmbed(embedData));
         }
